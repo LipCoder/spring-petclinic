@@ -28,6 +28,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PetClinicApplication {
 
+	/**
+	 * main을 통해 WebApp을 시작할 수도 있다.
+	 * 하지만 시작전에 꼭 Maven packaging을 해줘야 한다.
+	 *
+	 * 		> .\mvnw package
+	 *
+	 *
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(PetClinicApplication.class, args);
 	}
